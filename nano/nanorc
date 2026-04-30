@@ -1,0 +1,31 @@
+# Show line numbers
+set linenumbers
+
+# Enable mouse support (click to move cursor)
+set mouse
+
+# Enable auto-indentation
+set autoindent
+
+# Convert tabs to spaces
+set tabstospaces
+set tabsize 4
+
+# Enable soft wrapping (don’t break long lines visually)
+set softwrap
+
+# Allow undo/redo (modern nano supports this)
+set historylog
+
+# Use italic/bold if terminal supports it
+set boldtext
+
+# Title bar: bright white text on blue background
+set titlecolor brightwhite,blue
+
+# Line numbers: dim grey
+set numbercolor brightblack
+
+# Syntax highlighting (loads system defaults)
+include "/usr/share/nano/*.nanorc"
+
